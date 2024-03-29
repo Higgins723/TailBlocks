@@ -7,7 +7,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/tail-blocks.umd.js",
   "module": "dist/tail-blocks.es.js",
   "files": [
@@ -23,7 +23,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006 --ci",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "publish": "yarn lint && yarn build && npm publish --access public"
   },
   "dependencies": {
     "@emotion/css": "^11.11.2",
