@@ -2,6 +2,9 @@
   "name": "tailblocks",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+    "node": ">=20.11.1"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
