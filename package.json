@@ -7,7 +7,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "main": "dist/tail-blocks.umd.js",
+  "module": "dist/tail-blocks.esm.js",
+  "files": [
+    "dist/"
+  ],
   "engines": {
     "node": ">=20.11.1"
   },
