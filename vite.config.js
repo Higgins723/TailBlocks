@@ -7,7 +7,26 @@ const root = resolve(dirname(filename), 'src');
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react({
+    babel: {
+      plugins: [
+        'babel-plugin-macros',
+        [
+          '@emotion/babel-plugin-jsx-pragmatic',
+          {
+            export: 'jsx',
+            import: '__cssprop',
+            module: '@emotion/react'
+          },
+        ],
+        [
+          '@babel/plugin-transform-react-jsx',
+          { pragma: '__cssprop' },
+          'twin.macro',
+        ]
+      ]
+    }
+  })],
   build: {
     lib: {
       entry: resolve(root, 'components/index.js'),
