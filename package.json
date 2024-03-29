@@ -7,9 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/tail-blocks.umd.js",
-  "module": "dist/tail-blocks.esm.js",
+  "module": "dist/tail-blocks.es.js",
   "files": [
     "dist/"
   ],
