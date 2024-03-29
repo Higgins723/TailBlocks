@@ -1,7 +1,10 @@
 {
-  "name": "tailblocks",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@higgins723/tailblocks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Higgins723/tailblocks.git"
+  },
+  "version": "0.0.1",
   "engines": {
     "node": ">=20.11.1"
   },
