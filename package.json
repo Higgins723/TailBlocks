@@ -1,5 +1,5 @@
 {
-  "name": "@higgins723/tailblocks",
+  "name": "tailblocks",
   "repository": {
     "type": "git",
     "url": "https://github.com/Higgins723/tailblocks.git"
@@ -7,7 +7,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.3",
+  "version": "0.0.1",
   "engines": {
     "node": ">=20.11.1"
   },
