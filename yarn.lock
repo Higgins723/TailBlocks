@@ -64,7 +64,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.12.3, @babel/core@npm:^7.18.9, @babel/core@npm:^7.23.0, @babel/core@npm:^7.23.2, @babel/core@npm:^7.23.5, @babel/core@npm:^7.23.9":
+"@babel/core@npm:^7.12.3, @babel/core@npm:^7.18.9, @babel/core@npm:^7.23.0, @babel/core@npm:^7.23.2, @babel/core@npm:^7.23.5, @babel/core@npm:^7.23.9, @babel/core@npm:^7.24.3":
   version: 7.24.3
   resolution: "@babel/core@npm:7.24.3"
   dependencies:
@@ -9640,6 +9640,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tailblocks@workspace:."
   dependencies:
+    "@babel/core": "npm:^7.24.3"
     "@babel/preset-react": "npm:^7.24.1"
     "@chromatic-com/storybook": "npm:^1.2.25"
     "@emotion/babel-plugin": "npm:^11.11.0"
