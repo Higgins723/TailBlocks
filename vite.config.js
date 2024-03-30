@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import { resolve, dirname } from 'path'
 import react from '@vitejs/plugin-react'
 
-const filename = new URL(import.meta.url).pathname;
-const root = resolve(dirname(filename), 'src');
+const filename = new URL(import.meta.url).pathname
+const root = resolve(dirname(filename), 'src')
 
 // https://vitejs.dev/config/
 export default defineConfig({
