@@ -29,9 +29,9 @@ export default defineConfig({
   })],
   build: {
     lib: {
-      entry: resolve(root, 'components/index.js'),
+      entry: resolve(root, 'index.js'),
       name: 'TailBlocks',
-      fileName: (format) => `tail-blocks.${format}.js`
+      fileName: (format) => `tailblocks.${format}.js`
     },
     rollupOptions: {
       // Externalize peer dependencies to avoid bundling them

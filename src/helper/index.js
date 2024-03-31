@@ -1,5 +1,1 @@
-import classNames from './classGenerator';
-
-export {
-  classNames,
-}
+export { default as classGenerator } from './classGenerator'
