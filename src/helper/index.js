@@ -1,1 +1,1 @@
-export { default as classGenerator } from './classGenerator'
+export { default as classGenerator } from './classGenerator';

@@ -3,5 +3,5 @@ const plugins = ['@emotion/babel-plugin'];
 
 export default {
   presets,
-  plugins
-}
+  plugins,
+};
