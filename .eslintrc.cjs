@@ -18,6 +18,8 @@ module.exports = {
   ],
   rules: {
     'react/react-in-jsx-scope': 'off',
+    'react/button-has-type': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'prettier/prettier': ['error', {
       singleQuote: true,
       jsxSingleQuote: true

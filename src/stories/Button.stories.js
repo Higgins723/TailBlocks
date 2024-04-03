@@ -13,6 +13,21 @@ export default {
   tags: ['autodocs'],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes
   argTypes: {
+    buttonColor: {
+      control: 'select',
+      options: ['danger', 'primary', 'secondary', 'success'],
+    },
+    type: {
+      control: 'select',
+      options: ['button', 'submit', 'reset'],
+    },
+    disabled: {
+      control: 'boolean',
+    },
+    name: {
+      control: 'text',
+      description: 'Only used for form buttons',
+    },
   },
   // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args
   args: { onClick: fn() },
@@ -22,5 +37,9 @@ export default {
 export const Primary = {
   args: {
     children: 'Click me',
+    buttonColor: 'primary',
+    disabled: false,
+    type: 'button',
+    name: null,
   },
 };
