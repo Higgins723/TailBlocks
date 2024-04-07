@@ -7,7 +7,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "dist/tailblocks.umd.js",
   "module": "dist/tailblocks.es.js",
   "types": "dist/index.d.ts",
